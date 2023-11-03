@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle 
 import pandas as pd
+import sklearn
 
 
 with open('./iris/model.pkl','rb') as file:
